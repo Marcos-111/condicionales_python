@@ -208,6 +208,27 @@ def ej4():
     # Esta pregunta estará repetida en el Campus para que puedan
     # responder.
     # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+    
+    # ------------------------ Inove -----------------------------------
+    # Inove: ¿Cómo transfomar una variable texto (string) a número (int)
+    # Aprovecho esta oportunidad para que practiques el pull-request con este comentario
+    # Si quisiera convertir una variable texto a número debo usar el operador int()
+    # tal como se hace cuando tomamos un valor de la consola
+    # valor = int(input())  # Estamos tomando un valor de la consola y transformandolo a número
+    # En este caso hubiera aplicado:
+    
+    # Variables tipo string
+    texto_1 = '5'
+    texto_2 = '7'
+    
+    # Variables tipo numércias
+    numero_1 = int(texto_1)
+    numero_2 = int(texto_2)
+    
+    # Si ahora verificamos en la ventana de "variables" de Visual Studio Code
+    # veremos las variables nuevas creadas como enteros "int"
+    # ------------------------ Inove -----------------------------------
+    
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
